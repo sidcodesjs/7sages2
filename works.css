@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Bodoni+Moda:ital@1&family=Chivo+Mono:ital,wght@0,200;1,100&family=Montserrat+Alternates:wght@500&family=Nunito&family=Open+Sans:ital,wght@1,800&family=Prata&family=Raleway:ital@1&family=Righteous&family=Work+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #2f3542;
+
+}
+
+.graphics {
+    display: flex;
+    margin: 20px;
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    /* background-color: aliceblue; */
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2f3542;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* .graphics::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+
+} */
+
+.top-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.img-top {
+    width: 25%;
+
+}
+
+
+.text-graph {
+    color: white;
+    margin: 20px;
+    font-size: 3.4vw;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+
+}
+
+
+.show-img {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 15px;
+    height: 400px;
+}
+
+.video {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    overflow-x: scroll;
+    /* width: 40%; */
+}
+
+.video-cl {
+    width: 50%;
+    height: 1000px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .show-img {
+        width: 80%;
+        height: 200px;
+    }
+
+    .img-top {
+        width: 55%;
+
+    }
+
+    .video-cl {
+        width: 50%;
+        margin: 0;
+    }
+}

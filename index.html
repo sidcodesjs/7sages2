@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>7Sages Media</title>
+</head>
+
+<body>
+
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="works.html">Our Works</a>
+        <a href="contact.html">Contact us </a>
+        <a href="#bottom">About Us </a>
+        <img class="logo1" src="assets/logo agency2 (2).png" alt="logo">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="cursor"></div>
+    <script src="index.js"></script>
+    <div class="center-div">
+        <h1 class="title-text">7SageS Media. </h1>
+        <br>
+        <img class="threed " src="3d model.png" alt="3d spirtual icon.">
+    </div>
+    <h2 class="under">We take Creativity to the MOON.<img class="image" src="moon.png">
+    </h2>
+
+    <div class="about">
+        <h1 class="bottom" id="bottom">WHAT WE DO..</h1>
+        <!-- <br> -->
+        <div class="wedo">
+            <h2 class="video">Video Editing</h2><img class="icon1" src="18690-removebg-preview.png" alt="">
+            <br>
+            <div class="para1">
+
+                <p class="subscript1"> Videos are a powerful storytelling tool. Through video editing, a brand can craft
+                    narratives that resonate with its audience, humanizing the brand and creating an emotional
+                    connection. A well-told story can leave a lasting impression and strengthen brand loyalty.
+                    . </p>
+            </div>
+
+            <h2 class="video">Graphic Designing</h2>
+
+            <img class="icon1" src="7041-removebg-preview.png" alt="">
+            <br>
+            <p class="subscript1"> Consistent and well-crafted graphic design elements, such as logos, color schemes,
+                and visual styles, contribute to brand recognition. When customers repeatedly encounter these visual
+                cues across various touchpoints, they start associating them with the brand, leading to better recall
+                and awareness.
+                . </p>
+            <h2 class="video">Social Media Management</h2>
+            <img class="icon1" src="social media management transperant.png" alt="">
+            <br>
+            <p class="subscript1">Today's world is all about virtual marketing and so your product should have virtual
+                presence and
+                dominance, we provide best in class
+                <br>
+                Social media management which will take your product to next level
+                .
+            </p>
+            <h2 class="video">Motion Graphics video creation.</h2>
+            <br>
+            <img class="icon2" src="assets/icon22.png" alt="">
+            <p class="subscript1">Motion graphics combine elements like animation, text, and graphics to create visually
+                engaging and dynamic content. They can captivate the audience's attention and leave a lasting
+                impression. In a world where attention spans are short, motion graphics help companies stand out and
+                deliver their message effectively.
+
+            </p>
+            <h2 class="video">Meme Creation</h2>
+            <img class="icon1" src="assets/meme.png" alt="">
+            <br>
+            <p class="subscript1">Memes often resonate with the audience by addressing common experiences, feelings, or
+                trends. By using memes, companies can show a more human and relatable side, fostering a sense of
+                connection and empathy with their audience.
+                . </p>
+
+
+
+
+        </div>
+
+
+
+        <div class="footer">
+            <h2 class="footer1">
+
+                Made with 💝 & JS
+            </h2>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            let x = e.pageX;
+            let y = e.pageY;
+
+            cursor.style.top = y + "px";
+            cursor.style.left = x + "px";
+
+        })
+    </script>
+</body>
+
+
+</html>
